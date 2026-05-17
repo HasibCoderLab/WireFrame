@@ -1,92 +1,85 @@
-import { RiUserCommunityFill } from "react-icons/ri";
-import { GrResources } from "react-icons/gr";
-import { FaUserGraduate } from "react-icons/fa";
-
-import {
-  FaBullseye,
-  FaLaptopCode,
-  FaUsers
-} from "react-icons/fa";
 export const mentors = [
   {
     id: 1,
     name: "Shanto",
-    role: "Lead  Instructor & Backend Architect",
+    role: "Lead Instructor & Backend Architect",
+    bio: "Backend systems, scalable architecture, আর structured learning নিয়ে কাজ করতে পছন্দ করি। Clean code এবং mentoring আমার passion।",
     skills: ["Node.js", "System Design", "Software Architecture"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "shanto#0002",
     avatar: null,
     initials: "SH",
+    color: "from-cyan-500 to-blue-600",
   },
+
   {
     id: 2,
     name: "Hasib Hasan",
     role: "Backend Instructor & AI Integration Expert",
+    bio: "Competitive programming, backend systems এবং AI integration নিয়ে কাজ করতে ভালোবাসি। Problem solving is my daily habit.",
     skills: ["Competitive Programming", "Node.js", "MERN Stack"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "hasib#0001",
     avatar: null,
     initials: "HH",
+    color: "from-indigo-500 to-violet-600",
   },
 
   {
     id: 3,
     name: "Farhatul Khanam",
     role: "UI/UX Designer & Frontend Expert",
+    bio: "Design আর code এর মাঝে bridge তৈরি করতে ভালোবাসি। Pixel-perfect interfaces আমার specialty।",
     skills: ["React", "Tailwind CSS", "UI Design"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "farhatul#0003",
     avatar: null,
     initials: "FK",
+    color: "from-pink-500 to-rose-600",
   },
+
   {
     id: 4,
     name: "Mahin Hasan",
     role: "Full Stack Developer & Shopify Expert",
+    bio: "Full stack applications, Shopify ecosystem এবং scalable products build করতে পছন্দ করি।",
     skills: ["Shopify", "MERN Stack", "E-commerce"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "mahin#0004",
     avatar: null,
     initials: "MH",
+    color: "from-emerald-500 to-teal-600",
   },
+
   {
     id: 5,
     name: "Sumaiya Afroza",
     role: "Backend Developer & API Specialist",
+    bio: "Backend logic, API design এবং database structure নিয়ে কাজ করতে ভালো লাগে।",
     skills: ["Backend Development", "REST APIs", "Database Design"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "sumaiya#0005",
     avatar: null,
     initials: "SA",
+    color: "from-orange-500 to-amber-600",
   },
+
   {
     id: 6,
     name: "Hasnine",
     role: "JavaScript Instructor & API Integration Specialist",
+    bio: "JavaScript ecosystem, APIs এবং backend systems নিয়ে কাজ করতে ভালোবাসি।",
     skills: ["JavaScript", "API Development", "Backend Systems"],
     github: "https://github.com/",
+    linkedin: "https://linkedin.com/",
+    discord: "hasnine#0006",
     avatar: null,
     initials: "HN",
-  },
-];
-export const communityStats = [
-  {
-    id: 1,
-    label: "Active Members",
-    value: "50+",
-    icon: FaUsers,
-  },
-  {
-    id: 2,
-    label: "Projects Built",
-    value: "40+",
-    icon: FaLaptopCode,
-  },
-  {
-    id: 3,
-    label: "Resources Shared",
-    value: "200+",
-    icon: GrResources,
-  },
-  {
-    id: 4,
-    label: "Mentors",
-    value: "6",
-    icon: FaUserGraduate,
+    color: "from-violet-500 to-purple-600",
   },
 ];

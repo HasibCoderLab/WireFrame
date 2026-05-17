@@ -1,7 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
 
-// Placeholder pages — পরে একে একে বানাবো
+// ✅ Done — fully built pages
+import Home from "../pages/Home";
+import Members from "../pages/Members";
+import Resources from "../pages/Resources";
+
+// 🚧 Coming soon — এগুলো পরে বানাবো
 function ComingSoon({ name }) {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gray-950 pt-20">
@@ -17,16 +21,17 @@ function ComingSoon({ name }) {
 export default function AppRoutes() {
   return (
     <Routes>
+      {/* ✅ Built */}
       <Route path="/" element={<Home />} />
-      <Route path="/members" element={<ComingSoon name="Members" />} />
-      <Route path="/resources" element={<ComingSoon name="Resources" />} />
+      <Route path="/members" element={<Members />} />
+      <Route path="/resources" element={<Resources />} />
+
+      {/* 🚧 Coming soon */}
       <Route path="/projects" element={<ComingSoon name="Projects" />} />
       <Route path="/contact" element={<ComingSoon name="Join Us" />} />
+
       {/* 404 */}
-      <Route
-        path="*"
-        element={<ComingSoon name="404 — Page Not Found" />}
-      />
+      <Route path="*" element={<ComingSoon name="404 — Page Not Found" />} />
     </Routes>
   );
 }
