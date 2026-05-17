@@ -1,0 +1,63 @@
+export const mentors = [
+  {
+    id: 1,
+    name: "Hasib Hasan",
+    role: "Mentor",
+    skills: ["JavaScript", "React", "MERN"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "HH",
+  },
+  {
+    id: 2,
+    name: "Shanto",
+    role: "Mentor",
+    skills: ["Lead Instructor", "Backend Expart", "Architecture Engineer"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "SH",
+  },
+  {
+    id: 3,
+    name: "Farhatul Khanam",
+    role: "Mentor",
+    skills: ["React", "Tailwind", "Design"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "FK",
+  },
+  {
+    id: 4,
+    name: "Mahin Hasan",
+    role: "Mentor",
+    skills: ["Shopify", "MERN", ""],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "MH",
+  },
+  {
+    id: 5,
+    name: "Sumaiya Afroza",
+    role: "Mentor",
+    skills: ["Backend", "Tailwind", "React"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "SA",
+  },
+  {
+    id: 6,
+    name: "Hasnine",
+    role: "Mentor",
+    skills: ["JavaScript", "Backend", "APIs"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "HN",
+  },
+];
+
+export const communityStats = [
+  { id: 1, label: "Active Members", value: "120+", icon: "🙍🏻‍♂️" },
+  { id: 2, label: "Projects Built", value: "40+", icon: "💻" },
+  { id: 3, label: "Resources Shared", value: "200+", icon: "📃" },
+  { id: 4, label: "Mentors", value: "6", icon: "👨🏻‍🏫" },
+];
