@@ -9,6 +9,7 @@ import {
   FaLaptopCode,
   FaUsers,
 } from "react-icons/fa";
+import { FaUserGraduate } from "react-icons/fa";
 
 const FEATURES = [
   {
@@ -24,7 +25,7 @@ const FEATURES = [
       "Real projects বানিয়ে শেখো। Portfolio তৈরি হয়, আর practically কী শিখলে সেটা বোঝা যায়।",
   },
   {
-    icon: FaUsers,
+    icon: FaUserGraduate,
     title: "Mentor Support",
     description:
       "৬ জন experienced mentor সবসময় available। যেকোনো সমস্যায় Discord এ জিজ্ঞেস করো।",

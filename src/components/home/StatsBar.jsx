@@ -18,32 +18,41 @@ export default function StatsBar() {
         }}
         className="mx-auto grid max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4"
       >
-        {communityStats.map((stat, i) => (
-          <motion.div
-            key={stat.id}
-            variants={fadeUp}
-            custom={i}
-            className="
-              flex flex-col items-center gap-2
-              rounded-2xl
-              border border-gray-800
-              bg-gray-900/50
-              p-6
-              text-center
-              backdrop-blur-sm
-              transition-colors duration-200
-              hover:border-gray-700
-            "
-          >
-            <span className="text-3xl" role="img" aria-label={stat.label}>
-              {stat.icon}
-            </span>
-            <span className="text-3xl font-extrabold text-white">
-              {stat.value}
-            </span>
-            <span className="text-sm text-gray-500">{stat.label}</span>
-          </motion.div>
-        ))}
+        {communityStats.map((stat, i) => {
+          const Icon = stat.icon;
+
+          return (
+            <motion.div
+              key={stat.id}
+              variants={fadeUp}
+              custom={i}
+              className="
+        flex flex-col items-center gap-2
+        rounded-2xl
+        border border-gray-800
+        bg-gray-900/50
+        p-6
+        text-center
+        backdrop-blur-sm
+        transition-colors duration-200
+        hover:border-gray-700
+      "
+            >
+              <Icon
+                className="text-3xl text-indigo-400"
+                aria-hidden="true"
+              />
+
+              <span className="text-3xl font-extrabold text-white">
+                {stat.value}
+              </span>
+
+              <span className="text-sm text-gray-500">
+                {stat.label}
+              </span>
+            </motion.div>
+          );
+        })}
       </motion.div>
     </section>
   );

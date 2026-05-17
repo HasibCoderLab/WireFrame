@@ -136,7 +136,7 @@ function LiveBadge() {
         <span className="relative inline-flex h-2 w-2 rounded-full bg-violet-400" />
       </span>
       <span className="text-sm font-medium tracking-wide text-violet-300">
-        WireFrame Warriors — Active Community
+        WireFrame Warriors  Active Community
       </span>
     </motion.div>
   );
