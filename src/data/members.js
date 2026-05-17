@@ -1,3 +1,12 @@
+import { RiUserCommunityFill } from "react-icons/ri";
+import { GrResources } from "react-icons/gr";
+import { FaUserGraduate } from "react-icons/fa";
+
+import {
+  FaBullseye,
+  FaLaptopCode,
+  FaUsers
+} from "react-icons/fa";
 export const mentors = [
   {
     id: 1,
