@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const NAV_LINKS = [
   { to: "/", label: "Home" },
@@ -17,8 +18,11 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-8 sm:flex-row sm:justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-600 to-violet-600 text-sm font-black text-white">
-              WW
+            <span
+              aria-hidden="true"
+              className="flex h-8 w-10 items-center justify-center rounded-lg text-white shadow-md"
+            >
+              <img src={logo} alt="" />
             </span>
             <span className="text-base font-bold text-white">
               WireFrame <span className="text-indigo-400">Warriors</span>

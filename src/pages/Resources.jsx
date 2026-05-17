@@ -153,7 +153,7 @@ export default function Resources() {
                             কোনো ভালো resource জানো?
                         </p>
                         <p className="mb-6 text-gray-400 text-sm">
-                            Discord server এ শেয়ার করো — mentor রা review করে list এ add করবে।
+                            Discord server এ শেয়ার করো  mentor রা review করে list এ add করবে।
                         </p>
                         <a
                             href="https://discord.gg/"
