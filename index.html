@@ -1,15 +1,114 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- ═══════════════════════════════════════════════
+         CHARSET & VIEWPORT
+    ═══════════════════════════════════════════════ -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="WireFrame Warriors — A developer community to learn, build, and grow together." />
-    <meta property="og:title" content="WireFrame Warriors" />
-    <meta property="og:description" content="Learn. Build. Grow Together." />
-    <link rel="icon" type="image/svg+xml" href="/public/logo.png" />
-    <title>WireFrame Warriors</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ═══════════════════════════════════════════════
+         PRIMARY SEO
+    ═══════════════════════════════════════════════ -->
+    <title>WireFrame Warriors — Learn. Build. Grow Together.</title>
+    <meta
+      name="description"
+      content="WireFrame Warriors is an active developer community on Discord. Learn web development, build real projects, and grow with 6 experienced mentors and 120+ members."
+    />
+    <meta
+      name="keywords"
+      content="WireFrame Warriors, developer community, learn web development, React, JavaScript, HTML CSS, Discord programming, coding mentorship, Bangladesh developers"
+    />
+    <meta name="author" content="WireFrame Warriors" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://wire-frame1.vercel.app/" />
+
+    <!-- ═══════════════════════════════════════════════
+         OPEN GRAPH — Facebook, LinkedIn, Discord preview
+    ═══════════════════════════════════════════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WireFrame Warriors" />
+    <meta property="og:title" content="WireFrame Warriors  Learn. Build. Grow Together." />
+    <meta
+      property="og:description"
+      content="An active developer community with 6 mentors and 120+ members. Join us on Discord and start your web development journey today."
+    />
+    <meta property="og:url" content="https://wire-frame1.vercel.app/" />
+    <meta property="og:image" content="https://wire-frame1.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="WireFrame Warriors  Developer Community" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ═══════════════════════════════════════════════
+         TWITTER CARD
+    ═══════════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WireFrame Warriors  Learn. Build. Grow Together." />
+    <meta
+      name="twitter:description"
+      content="An active developer community with 6 mentors and 50+ members. Join us on Discord."
+    />
+    <meta name="twitter:image" content="https://wire-frame1.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="WireFrame Warriors Community" />
+
+    <!-- ═══════════════════════════════════════════════
+         FAVICON & APP ICONS
+    ═══════════════════════════════════════════════ -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+
+    <!-- ═══════════════════════════════════════════════
+         THEME COLOR — Browser UI color (mobile)
+    ═══════════════════════════════════════════════ -->
+    <meta name="theme-color" content="#030712" />
+    <meta name="msapplication-TileColor" content="#030712" />
+
+    <!-- ═══════════════════════════════════════════════
+         STRUCTURED DATA — JSON-LD (Google rich results)
+    ═══════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "WireFrame Warriors",
+        "url": "https://wire-frame1.vercel.app/",
+        "logo": "https://wire-frame1.vercel.app/logo.png",
+        "description": "WireFrame Warriors is an active developer community where people learn web development, build real projects, and grow together with experienced mentors.",
+        "sameAs": [
+          "https://discord.gg/wireframe-warriors"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Community Support",
+          "url": "https://discord.gg/wireframe-warriors"
+        }
+      }
+    </script>
+
+    <!-- ═══════════════════════════════════════════════
+         PERFORMANCE — Preconnect critical origins
+    ═══════════════════════════════════════════════ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Font — Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="text-align:center;padding:40px;font-family:sans-serif;background:#030712;color:#fff;">
+        <h1>WireFrame Warriors</h1>
+        <p>Please enable JavaScript to view this site.</p>
+      </div>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
