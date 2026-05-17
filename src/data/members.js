@@ -1,26 +1,27 @@
 export const mentors = [
   {
     id: 1,
-    name: "Hasib Hasan",
-    role: "Frontend Mentor & JavaScript Instructor",
-    skills: ["JavaScript", "React", "MERN Stack"],
-    github: "https://github.com/",
-    avatar: null,
-    initials: "HH",
-  },
-  {
-    id: 2,
     name: "Shanto",
-    role: "Lead Mentor & Backend Architect",
+    role: "Lead  Instructor & Backend Architect",
     skills: ["Node.js", "System Design", "Software Architecture"],
     github: "https://github.com/",
     avatar: null,
     initials: "SH",
   },
   {
+    id: 2,
+    name: "Hasib Hasan",
+    role: "Backend Instructor & AI Integration Expert",
+    skills: ["Competitive Programming", "Node.js", "MERN Stack"],
+    github: "https://github.com/",
+    avatar: null,
+    initials: "HH",
+  },
+
+  {
     id: 3,
     name: "Farhatul Khanam",
-    role: "UI/UX & Frontend Mentor",
+    role: "UI/UX Designer & Frontend Expert",
     skills: ["React", "Tailwind CSS", "UI Design"],
     github: "https://github.com/",
     avatar: null,
@@ -29,7 +30,7 @@ export const mentors = [
   {
     id: 4,
     name: "Mahin Hasan",
-    role: "Full Stack & Shopify Mentor",
+    role: "Full Stack Developer & Shopify Expert",
     skills: ["Shopify", "MERN Stack", "E-commerce"],
     github: "https://github.com/",
     avatar: null,
@@ -38,7 +39,7 @@ export const mentors = [
   {
     id: 5,
     name: "Sumaiya Afroza",
-    role: "Backend Mentor & API Specialist",
+    role: "Backend Developer & API Specialist",
     skills: ["Backend Development", "REST APIs", "Database Design"],
     github: "https://github.com/",
     avatar: null,
@@ -47,7 +48,7 @@ export const mentors = [
   {
     id: 6,
     name: "Hasnine",
-    role: "JavaScript & API Integration Mentor",
+    role: "JavaScript Instructor & API Integration Specialist",
     skills: ["JavaScript", "API Development", "Backend Systems"],
     github: "https://github.com/",
     avatar: null,
@@ -55,7 +56,7 @@ export const mentors = [
   },
 ];
 export const communityStats = [
-  { id: 1, label: "Active Members", value: "120+", icon: "🙍🏻‍♂️" },
+  { id: 1, label: "Active Members", value: "50+", icon: "🙍🏻‍♂️" },
   { id: 2, label: "Projects Built", value: "40+", icon: "💻" },
   { id: 3, label: "Resources Shared", value: "200+", icon: "📃" },
   { id: 4, label: "Mentors", value: "6", icon: "👨🏻‍🏫" },

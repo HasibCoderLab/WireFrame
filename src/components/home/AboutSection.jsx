@@ -1,30 +1,39 @@
 import { motion } from "framer-motion";
 import { fadeUp } from "../../utils/animations";
 
+import { RiUserCommunityFill } from "react-icons/ri";
+import { PiStepsFill } from "react-icons/pi";
+
+import {
+  FaBullseye,
+  FaLaptopCode,
+  FaUsers,
+} from "react-icons/fa";
+
 const FEATURES = [
   {
-    icon: "🎯",
+    icon: PiStepsFill,
     title: "Structured Learning",
     description:
       "Roadmap-driven learning path — HTML → CSS → JS → React → MERN। Step by step, কোনো confusion নেই।",
   },
   {
-    icon: "👨‍💻",
+    icon: FaLaptopCode,
     title: "Project-Based Practice",
     description:
       "Real projects বানিয়ে শেখো। Portfolio তৈরি হয়, আর practically কী শিখলে সেটা বোঝা যায়।",
   },
   {
-    icon: "🤝",
+    icon: FaUsers,
     title: "Mentor Support",
     description:
       "৬ জন experienced mentor সবসময় available। যেকোনো সমস্যায় Discord এ জিজ্ঞেস করো।",
   },
   {
-    icon: "🔥",
+    icon: RiUserCommunityFill,
     title: "Active Community",
     description:
-      "120+ active members। Daily discussions, code reviews, আর weekly challenges চলে।",
+      "50+ active members। Daily discussions, code reviews, আর weekly challenges চলে।",
   },
 ];
 
@@ -81,47 +90,49 @@ export default function AboutSection() {
           }}
           className="grid gap-6 sm:grid-cols-2"
         >
-          {FEATURES.map((feature, i) => (
-            <motion.article
-              key={feature.title}
-              variants={fadeUp}
-              custom={i}
-              className="
-                group
-                relative
-                overflow-hidden
-                rounded-2xl
-                border border-gray-800
-                bg-gray-900/50
-                p-8
-                transition-all duration-300
-                hover:border-indigo-800/60
-                hover:bg-gray-900
-              "
-            >
-              {/* Hover glow */}
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-0 rounded-2xl bg-indigo-600/0 transition-all duration-300 group-hover:bg-indigo-600/5"
-              />
+          {FEATURES.map((feature, i) => {
+            const Icon = feature.icon;
 
-              <div className="relative z-10">
-                <span
-                  className="mb-4 block text-4xl"
-                  role="img"
+            return (
+              <motion.article
+                key={feature.title}
+                variants={fadeUp}
+                custom={i}
+                className="
+        group
+        relative
+        overflow-hidden
+        rounded-2xl
+        border border-gray-800
+        bg-gray-900/50
+        p-8
+        transition-all duration-300
+        hover:border-indigo-800/60
+        hover:bg-gray-900
+      "
+              >
+                <div
                   aria-hidden="true"
-                >
-                  {feature.icon}
-                </span>
-                <h3 className="mb-2 text-xl font-bold text-white">
-                  {feature.title}
-                </h3>
-                <p className="leading-relaxed text-gray-400">
-                  {feature.description}
-                </p>
-              </div>
-            </motion.article>
-          ))}
+                  className="pointer-events-none absolute inset-0 rounded-2xl bg-indigo-600/0 transition-all duration-300 group-hover:bg-indigo-600/5"
+                />
+
+                <div className="relative z-10">
+                  <Icon
+                    className="mb-4 text-4xl text-indigo-400 transition-transform duration-300 group-hover:scale-110"
+                    aria-hidden="true"
+                  />
+
+                  <h3 className="mb-2 text-xl font-bold text-white">
+                    {feature.title}
+                  </h3>
+
+                  <p className="leading-relaxed text-gray-400">
+                    {feature.description}
+                  </p>
+                </div>
+              </motion.article>
+            );
+          })}
         </motion.div>
       </div>
     </section>
