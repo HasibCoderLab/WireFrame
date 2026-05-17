@@ -84,9 +84,28 @@ export const mentors = [
   },
 ];
 
-export const communityStats = [
-  { id: 1, label: "Active Members", value: "120+", icon: "👥" },
-  { id: 2, label: "Projects Built", value: "40+", icon: "🛠️" },
-  { id: 3, label: "Resources Shared", value: "200+", icon: "📚" },
-  { id: 4, label: "Mentors", value: "6", icon: "🏆" },
+export const communityStats = [{
+  id: 1,
+  label: "Active Members",
+  value: "50+",
+  icon: FaUsers,
+},
+{
+  id: 2,
+  label: "Projects Built",
+  value: "40+",
+  icon: FaLaptopCode,
+},
+{
+  id: 3,
+  label: "Resources Shared",
+  value: "200+",
+  icon: GrResources,
+},
+{
+  id: 4,
+  label: "Mentors",
+  value: "6",
+  icon: FaUserGraduate,
+},
 ];
