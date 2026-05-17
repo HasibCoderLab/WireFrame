@@ -4,8 +4,10 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Members from "../pages/Members";
 import Resources from "../pages/Resources";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsAndConditions from "../pages/TermsAndConditions";
 
-// 🚧 Coming soon — এগুলো পরে বানাবো
+// 🚧 Coming soon
 function ComingSoon({ name }) {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gray-950 pt-20">
@@ -25,6 +27,8 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/members" element={<Members />} />
       <Route path="/resources" element={<Resources />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms" element={<TermsAndConditions />} />
 
       {/* 🚧 Coming soon */}
       <Route path="/projects" element={<ComingSoon name="Projects" />} />
