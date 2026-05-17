@@ -2,8 +2,8 @@ export const mentors = [
   {
     id: 1,
     name: "Hasib Hasan",
-    role: "Mentor",
-    skills: ["JavaScript", "React", "MERN"],
+    role: "Frontend Mentor & JavaScript Instructor",
+    skills: ["JavaScript", "React", "MERN Stack"],
     github: "https://github.com/",
     avatar: null,
     initials: "HH",
@@ -11,8 +11,8 @@ export const mentors = [
   {
     id: 2,
     name: "Shanto",
-    role: "Mentor",
-    skills: ["Lead Instructor", "Backend Expart", "Architecture Engineer"],
+    role: "Lead Mentor & Backend Architect",
+    skills: ["Node.js", "System Design", "Software Architecture"],
     github: "https://github.com/",
     avatar: null,
     initials: "SH",
@@ -20,8 +20,8 @@ export const mentors = [
   {
     id: 3,
     name: "Farhatul Khanam",
-    role: "Mentor",
-    skills: ["React", "Tailwind", "Design"],
+    role: "UI/UX & Frontend Mentor",
+    skills: ["React", "Tailwind CSS", "UI Design"],
     github: "https://github.com/",
     avatar: null,
     initials: "FK",
@@ -29,8 +29,8 @@ export const mentors = [
   {
     id: 4,
     name: "Mahin Hasan",
-    role: "Mentor",
-    skills: ["Shopify", "MERN", ""],
+    role: "Full Stack & Shopify Mentor",
+    skills: ["Shopify", "MERN Stack", "E-commerce"],
     github: "https://github.com/",
     avatar: null,
     initials: "MH",
@@ -38,8 +38,8 @@ export const mentors = [
   {
     id: 5,
     name: "Sumaiya Afroza",
-    role: "Mentor",
-    skills: ["Backend", "Tailwind", "React"],
+    role: "Backend Mentor & API Specialist",
+    skills: ["Backend Development", "REST APIs", "Database Design"],
     github: "https://github.com/",
     avatar: null,
     initials: "SA",
@@ -47,14 +47,13 @@ export const mentors = [
   {
     id: 6,
     name: "Hasnine",
-    role: "Mentor",
-    skills: ["JavaScript", "Backend", "APIs"],
+    role: "JavaScript & API Integration Mentor",
+    skills: ["JavaScript", "API Development", "Backend Systems"],
     github: "https://github.com/",
     avatar: null,
     initials: "HN",
   },
 ];
-
 export const communityStats = [
   { id: 1, label: "Active Members", value: "120+", icon: "🙍🏻‍♂️" },
   { id: 2, label: "Projects Built", value: "40+", icon: "💻" },
