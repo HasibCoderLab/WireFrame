@@ -83,3 +83,10 @@ export const mentors = [
     color: "from-violet-500 to-purple-600",
   },
 ];
+
+export const communityStats = [
+  { id: 1, label: "Active Members", value: "120+", icon: "👥" },
+  { id: 2, label: "Projects Built", value: "40+", icon: "🛠️" },
+  { id: 3, label: "Resources Shared", value: "200+", icon: "📚" },
+  { id: 4, label: "Mentors", value: "6", icon: "🏆" },
+];
